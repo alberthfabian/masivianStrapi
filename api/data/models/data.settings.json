@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data",
+  "info": {
+    "name": "Data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "month": {
+      "type": "string"
+    },
+    "num": {
+      "type": "integer"
+    },
+    "link": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "news": {
+      "type": "string"
+    },
+    "safe_title": {
+      "type": "string"
+    },
+    "transcript": {
+      "type": "text"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    }
+  }
+}
